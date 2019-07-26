@@ -10,7 +10,7 @@ export interface IClickerProps {
     updateClicks: (amount: number) => void;
 }
 
-class ClickerComponent extends React.Component<IClickerProps, {}> {
+export class ClickerComponent extends React.Component<IClickerProps, {}> {
 
     render() {
         return (
